@@ -1,0 +1,46 @@
+body{
+  background-color: rgb(222, 196, 246);
+}
+
+#form{
+  background-color: rgb(255, 255, 255);
+  width:25%;
+  border-radius: 4px;
+  margin:120px auto;
+  padding:50px;
+  box-shadow: 10px 10px 5px rgb(82, 11, 77);
+}
+
+#btn{
+  color:rgb(222, 196, 246s);
+  background-color: rgb(222, 196, 246);
+  padding:10px;
+  font-size: large;
+  border-radius: 20px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#btn:hover {
+  background-color: rgb(255, 255, 255);
+  transform: scale(1.0);
+  transition: 2s;
+}
+
+@media screen and (max-width: 570px) {
+  #form {
+    width: 65%;
+    margin-left:none;
+    padding:40px;
+  }
+}
+
+input {
+  background-color: rgb(233, 240, 245);
+  border-radius: 20px;
+}
+
+h1 {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: rgb(63, 61, 61);
+  text-shadow: 1px 1px 1px black;
+}
